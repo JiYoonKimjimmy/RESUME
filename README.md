@@ -3,12 +3,14 @@
 * Email : jimmyberg.kim@gmail.com
 * Medium Profile : https://medium.com/@jimmyberg.kim
 
-모든 사람들이 알고 사용하는 서비스를 만드는 개발자가 되는 큰 꿈을 꾸고 있습니다. 좋은 개발자가 되기 위해 고민을 멈추지 않고, 자신의 코드에 만족하지 않고, 다른 사람의 의견도 겸허하게 받아들이는 개발자가 되도록 노력하겠습니다.
+모든 사람들이 알고 사용하는 서비스를 만드는 개발자가 되는 큰 꿈을 꾸고 있습니다.
+좋은 개발자가 되기 위해 고민을 멈추지 않고, 자신의 것에 만족하지 않으며,
+다른 사람의 의견도 겸허하게 받아들이는 개발자가 되도록 노력하겠습니다.
 
 # 경력
 ## ATON (2016 ~ 현재)
 * 금융 솔루션 개발팀
-* 금융 프로젝트 reference : KB국민은행, IBK기업은행, KEB하나은행
+* 금융 프로젝트 Reference : KB국민은행, IBK기업은행, KEB하나은행
 
 # 프로젝트
 ## KB국민은행
@@ -65,11 +67,11 @@
 
 # 기술 및 도구
 ## Front-End
-* 다양한 프로젝트에서 다양한 화면 개발을 통해 HTML, JavaScript, JQuery 등은 많은 경험을 하였습니다.
-* 특정 프로젝트에서 Vue.js 프로젝트를 사용하였고, Toy 프로젝트를 통해 꾸준히 익히고 사용하고 있습니다.
+* 다양한 프로젝트에서 다양한 화면 개발을 통해 HTML, JavaScript, JQuery 개발에 대한 많은 경험을 하였습니다.
+* 특정 프로젝트에서는 Vue.js 라이브러리를 활용한 개발도 진행하였고, 온라인 강좌와 가벼운 Toy 프로젝트를 통해 꾸준히 익히고 있습니다.
 
 ## Back-End
-* Spring Framework와 Spring Boot에 대해 사용 경험을 토대로 RESTFul API에 대해 이해하고, 개발이 가능합니다.
+* Spring Framework와 Spring Boot에 대해 사용 경험을 토대로 RESTFul API에 대해 이해하고, 개발 가능합니다.
 * AWS를 이용한 Cloud Server 구축을 하고, Docker와 Jenkins를 통해 안전하고 유지보수가 용이한 서버 구축 경험이 있습니다.
 
 ## Database
