@@ -2,6 +2,7 @@
 * 이름 : 김지윤
 * 수원대학교 정보통신공학과 졸업 (2009.03 ~ 2016.02)
 * Email : jimmyberg.kim@gmail.com
+* GitHub : https://github.com/JiYoonKimjimmy
 * Medium Profile : https://medium.com/@jimmyberg.kim
 
 #### 모두가 알고 있고, 누구나 사용하기 편한 서비스의 개발자가 되고 싶은 꿈이 있습니다. 그런 개발자가 되기 위해 작은 고민이라도 멈추지 않고, 항상 자신의 것에 만족하지 않으며, 다른 사람의 의견도 겸허하게 받아들이는 개발자가 되도록 노력하겠습니다!
