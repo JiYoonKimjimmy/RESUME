@@ -5,16 +5,9 @@
 * GitHub : https://github.com/JiYoonKimjimmy
 * Medium Profile : https://medium.com/@jimmyberg.kim
 
-**4년동안 쌓은 제1금융권 프로젝트를 포함한 다양한 경험을 쌓았습니다.  
-누구나 사용하기 편하고, 많은 사람들이 사용하고 싶어하는 서비스의 개발자,  
-Front-End와 Back-End 개발을 구분하지 않는 Full-Stack 개발자가  
-되고 싶은 꿈이 있는 개발자로서,**
+**4년동안 쌓은 제1금융권 프로젝트를 포함한 다양한 경험을 쌓았습니다.<br>누구나 사용하기 편하고, 많은 사람들이 사용하고 싶어하는 서비스의 개발자,<br>Front-End와 Back-End 개발을 구분하지 않는 Full-Stack 개발자가 되고 싶은 꿈이 있는 개발자로서,**
 
-***1.작은 고민이라도 게을리하지 않으며  
-2.항상 자신의 것에 만족하지 않으며  
-3.새로운 변화를 두려워 하지않으며  
-4.나와 다른 의견일지라도 겸허하게 받아들일 수 있는  
-개발자가 되도록 노력하겠습니다!***
+***1.작은 고민이라도 게을리하지 않으며<br>2.항상 자신의 것에 만족하지 않으며<br>3.새로운 변화를 두려워 하지않으며<br>4.나와 다른 의견일지라도 겸허하게 받아들일 수 있는<br>개발자가 되도록 노력하겠습니다!***
 
 ---
 
@@ -32,6 +25,7 @@ Front-End와 Back-End 개발을 구분하지 않는 Full-Stack 개발자가
 * Front-End : HTML, jQuery, JavaScript
 * Back-End : Java, iBatis, JSP
 * Database : Oracle
+
 ### FIDO 생체인증 시스템 구축 프로젝트(2016.08 ~ 2017.05)
 * 스마트폰에서 지원하는 지문인증 및 홍채인증을 KB국민은행 모든 앱 서비스의 인증 프로세스에 적용 프로젝트
 * 담당 업무 : 프로젝트 전체 설계 문서 작성, Web/Native Interface 공통 개발
@@ -73,7 +67,7 @@ Front-End와 Back-End 개발을 구분하지 않는 Full-Stack 개발자가
 * Back-End : Spring Boot, JPA, JOOQ, Spring Security
 * Database : MySQL
 * DevOps : Docker, Jenkins, AWS
-##### 기술 Spec : Java, Spring 5.0, Spring Boot, Vue.js, JPA, JOOQ, MySQL, AWS, Docker, Jenkins
+
 ### 카매니저 App 고도화 프로젝트(2018.05 ~ 2018.08)
 * 중고차 딜러 지원 서비스 카매니저 고도화 프로젝트
 * 담당 업무 : 메인 화면, 검색 서비스, 고객 관리, 설정, Api Server 재구축
@@ -89,6 +83,7 @@ Front-End와 Back-End 개발을 구분하지 않는 Full-Stack 개발자가
 * Front-End : HTML, jQuery, JavaScript
 * Back-End : Java, JSP
 * Database : Oracle
+
 ### iONE Bank 2.0 고도화 프로젝트(2018.12 ~ 2019.06)
 * iONE Bank App 서비스 2.0 버전업 프로젝트
 * 담당 업무 : 입출금 및 카드 상품 가입 프로세스, 메인 계좌뷰 설정, 고객센터 전체 개발
@@ -99,6 +94,7 @@ Front-End와 Back-End 개발을 구분하지 않는 Full-Stack 개발자가
 * Front-End : HTML, jQuery, JavaScript, Vue.js(Lib)
 * Back-End : Java, JSP
 * Database : Oracle
+
 ### 하나원큐플러스 고도화 프로젝트(2020.03 ~ 2020.08)
 * 하나원큐플러스 App 서비스 고도화 프로젝트
 * 담당 업무 : 연락처 이체(전자지갑 이체) 프로세스 신규 구축
@@ -108,18 +104,18 @@ Front-End와 Back-End 개발을 구분하지 않는 Full-Stack 개발자가
 
 # 기술 및 도구
 ## Front-End
-##### 기술 spec : HTML, Javascript, jQuery, Vue.js
+### *HTML, Javascript, jQuery, Vue.js*
 * 다양한 앱 어플리케이션 프로젝트의 화면 개발을 통해 HTML, JavaScript, jQuery 에 대대한 많은 개발 경험이 있습니다.
 * ECMA 6의 문법을 공부하고 실제 개발에서도 많이 사용하고자 노력하고 있습니다.(금융권 업무상, babel 같은 plugin 부재로 ES6 문법은 지양하는 편입니다.)
 * 특정 몇가지 프로젝트를 통해 Vue.js를 접하게 되었고, 기본적인 Data binding, Vue.js methods, Components, Template 등 개발 가능합니다.
 
 ## Back-End
-##### 기술 spec : Java, Spring Framework, JPA, JOOQ, MyBatis, Docker, Jenkins
+### *Java, Spring Framework, JPA, JOOQ, MyBatis, Docker, Jenkins*
 * Spring Framework기반의 RESTful API 개발에 대해 이해하고, 개발 가능합니다.
 * JPA를 이용한 API 개발이 가능하고, JPA의 단점을 보완할 JOOQ 개발 경험이 있습니다.
 * AWS를 이용한 Cloud Server 구축을 하고, Docker와 Jenkins를 통해 안전하고 유지보수가 용이한 DevOps 환경 구축 경험이 있습니다.
 
 ## Database
-##### 기술 spec : Oracle, MySQL, DB2
+### *Oracle, MySQL*
 * 금융권 프로젝트를 통해 Oracle Query에 대해 다양한 경험들을 쌓았습니다.
 * 그 외에 MySQL, DB2 등 경험이 있습니다.
