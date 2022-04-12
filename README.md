@@ -16,7 +16,7 @@ Full backwards compatibilty with version 1 remains and the documentation for ver
 
 ----
 
-![img](screenshot.png)
+![img](images/screenshot.png)
 
 Thank you for checking out my resume theme / template. If you have any feedback or suggestions for things I can add please let me know by by raising an [issue](https://github.com/sproogen/modern-resume-theme/issues/new/choose), I'm always happy to help.
 
