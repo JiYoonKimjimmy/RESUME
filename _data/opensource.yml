@@ -1,0 +1,57 @@
+- layout: left
+  name: 개인 블로그
+  link: https://jojoldu.tistory.com/
+  quote: >
+    개인 기술 블로그
+  description: | # this will include new lines to allow paragraphs
+    * 업무에서 만난 문제, 회사에서 사용해야할 기술, 팀내 많은 분들이 실수하는 부분 등을 자세히 정리하여 공유하기 위한 블로그
+    * 평일 평균 PV 6,000 ~ 7000, MAU 4.9만, 월 PV 15만
+    * 2016년 부터 꾸준히 작성하고 있으며 현재 누적 PV 430만
+
+- layout: left
+  name: spring-batch-querydsl
+  link: https://github.com/jojoldu/spring-batch-querydsl
+  quote: >
+    Querydsl-JPA를 사용할 수 있는 Spring Batch Item Reader
+  description: | # this will include new lines to allow paragraphs
+    * 업무에서 사용중인 Querydsl-JPA가 Spring Batch에서 공식지원하지 않아 이를 위한 오픈소스 개발
+    * 해당 오픈소스 개발 과정은 [사내 기술 블로그에 포스팅](https://woowabros.github.io/experience/2020/02/05/springbatch-querydsl.html)
+
+- layout: left
+  name: spring-batch
+  link: https://github.com/spring-projects/spring-batch/pulls?q=is%3Apr+author%3Ajojoldu
+  quote: >
+    Spring Batch 오픈소스 PR
+  description: | # this will include new lines to allow paragraphs
+    * 커머스 서비스를 운영하면서 Spring Batch에 본격적으로 입문
+    * 업무 진행하면서 발견된 이슈에 한해서 계속 PR 요청
+
+- layout: left
+  name: spring-boot-aws-mock
+  link: https://github.com/jojoldu/spring-boot-aws-mock
+  quote: >
+    AWS Mocking용 Spring Boot Starter
+  description: | # this will include new lines to allow paragraphs
+    * AWS의 메세징 큐 서비스인 SQS 개발 할때마다 OTP 인증이 필요한게 귀찮아서 개발
+    * 여러 개발자들이 격리화된 AWS 환경에서 개발할 수 있게 지원하는 Mocking 라이브러리
+    * 별도로 <mark>Docker 설치 없이</mark> 프로젝트를 실행할수 있게 <mark>H2와 같은 사용성</mark> 지원
+    * ElasticMQ 등 사용
+    * 오픈 초기에는 사내 여러 팀, 서비스에서도 사용
+    * [AWS Localstack](http://woowabros.github.io/tools/2019/07/18/localstack-integration.html)의 발견으로 확장하지 않을 예정
+
+- layout: left
+  name: translator
+  link: https://github.com/jojoldu/translator
+  quote: >
+    IntelliJ IDEA 기반 IDE에서 사용할 수 있는 번역 플러그인
+  description: | # this will include new lines to allow paragraphs
+    * 구글/네이버 사전을 검색하기 위해 개발 중간 중간 화면 이동하는게 귀찮아서 개발
+    * JavaDoc 번역, 변수명 짓기 등 영문 <-> 한글 번역 지원
+    * PC 애플리케이션의 Freezing을 막기 위해 모든 이벤트를 <mark>논블로킹</mark>으로
+    * Java8 <mark>CompletableFuture</mark> 기반 구현 및 테스트 코드 작성
+
+
+
+
+
+    
