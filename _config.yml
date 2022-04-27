@@ -22,7 +22,7 @@ linkedin_username: jim-kim-7001451b5
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  금융 SI 프로젝트 개발를 시작으로 다양한 서비스의 `Front-End` & `Back-End` 개발 경험으로 하였고, 전체적인 시스템 인프라 구축 및 아키텍처에 대한 관심으로 **Back-End 개발자** 라는 길을 선택하게 되었습니다.
+  금융 APP 어플리케이션 개발 프로젝트를 시작으로 다양한 서비스의 `Front-End` & `Back-End` 개발 경험으로 하였고, 전체적인 시스템 인프라 구축 및 아키텍처에 대한 관심으로 **Back-End 개발자** 라는 길을 선택하게 되었습니다.
 
   **Java** 와 **Kotlin** 언어를 활용하여 **Spring Framework** 기반의 Core API 시스템을 개발하고, **Spring Data JPA** 등 오픈 소스 라이브러리를 활용한 안전하고 다양한 퍼포먼스의 개발 경험을 하고 있습니다.
 
