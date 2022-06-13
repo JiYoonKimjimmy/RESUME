@@ -14,16 +14,19 @@
 - layout: top-middle
   name: 이관 지원 Core Component 개발/운영
   quote: >
-    코나아이 (2021.03 ~ 2021.04)
+    코나아이 (2021.03 ~ 현제)
   description: |
-    * AS-IS 지역 화폐 이관 관리 Rest API 신규/운영 개발
+    * 타사 AS-IS 지역 화폐 정보 이관 관리 Rest API 신규/운영 개발
     * 기존 회원 정보 연동
-    * 기존 회원 잔액 원장, 거래 내역 원장 등 이관 처리
+    * 기존 잔액 원장, 카드 원장, 거래 내역 원장 등 필요한 데이터 이관 처리
     * 신규 DB 모델링 설계/운영
     * 회원 가입시, 기존 회원 이관 정보 연동 프로세스 구축
+    * 지역 화폐 이관 서비스 대상
+      * `2021.04` **부산동백전** (회원 : 약 300만 명, 거래 내역 : 약 3억 건)
+      * `2022.06` **김포페이** (회원 : 약 30만 명, 거래 내역 : 약 8000만 건)
 
       **Project Specs**
-      `Java`, `Kotlin`, `Spring Boot`, `Spring Batch`, `Spring Data JPA`, `Oracle`, `Gradle`
+      `Kotlin`, `Spring Boot`, `Spring Batch`, `Spring Data JPA`, `QueryDSL`, `Oracle`, `Gradle`
 
 - layout: top-middle
   name: 기부 서비스 Core Component 개발/운영
