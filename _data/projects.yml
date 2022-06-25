@@ -5,14 +5,15 @@
   description: |
     * 코나 결제 플랫폼 시스템 <mark>회원 관리</mark> Rest API 신규/운영 개발
     * 회원 가입 및 로그인, 회원 정보 관리, 약관 관리 등 회원 관련 API 제공
-    * 휴면 회원 정책 수립, 전환/해제 프로세스 구축
-    * 핀테크 보안 점검 대응을 위한 로그인, 간편 비밀번호 검증 신규 프로세스 구축
+    * 휴면 회원 정책 수립, 전환/해제 신규 프로세스 개발 구축
+    * 핀테크 보안 점검 대응을 위한 로그인, 간편 비밀번호 검증 신규 프로세스 개발 구축
+    * 타사 서비스 회원 가입 여부 및 정보 조회 API 제공
 
-      **Project Specs**
-      `Java`, `Kotlin`, `Spring Boot`, `Spring Data JPA`, `Oracle`, `Gradle`
+    **Project Specs**
+    `Java`, `Kotlin`, `Spring Boot`, `Spring Data JPA`, `Oracle`, `Gradle`
 
 - layout: top-middle
-  name: 이관 지원 Core Component 개발/운영
+  name: 지역화폐 서비스 이관 지원 Core Component 개발/운영
   quote: >
     코나아이 (2021.03 ~ 현제)
   description: |
@@ -22,11 +23,11 @@
     * 신규 DB 모델링 설계/운영
     * 회원 가입시, 기존 회원 이관 정보 연동 프로세스 구축
     * 지역 화폐 이관 서비스 대상
-      * `2021.04` **부산동백전** (회원 : 약 300만 명, 거래 내역 : 약 3억 건)
-      * `2022.06` **김포페이** (회원 : 약 30만 명, 거래 내역 : 약 8000만 건)
+      * <mark>2021</mark> **부산동백전** (회원 : 약 300만 명, 거래 내역 : 약 3억 건)
+      * <mark>2022</mark> **김포페이** (회원 : 약 30만 명, 거래 내역 : 약 8000만 건)
 
-      **Project Specs**
-      `Kotlin`, `Spring Boot`, `Spring Batch`, `Spring Data JPA`, `QueryDSL`, `Oracle`, `Gradle`
+    **Project Specs**
+    `Kotlin`, `Spring Boot`, `Spring Batch`, `Spring Data JPA`, `QueryDSL`, `Oracle`, `Gradle`
 
 - layout: top-middle
   name: 기부 서비스 Core Component 개발/운영
@@ -36,21 +37,34 @@
     * 지역화폐 기반 기부 서비스 관리 운영 개발
     * 기부 등록/수정/완료 처리 등 다양한 기부 서비스 관련 API 개발
 
-      **Project Specs**
-      `Kotlin`, `Spring Boot`, `Spring Data JPA`, `QueryDSL`, `Oracle`, `Gradle`
+    **Project Specs**
+    `Kotlin`, `Spring Boot`, `Spring Data JPA`, `QueryDSL`, `Oracle`, `Gradle`
 
 - layout: top-middle
   name: 로카모빌리티 결제 시스템 연동 Core Component 개발/운영
   quote: >
-    코나아이 (2022.02 ~ 2022.05 완료 예정)
+    코나아이 (2022.02 ~ 2022.05)
   description: |
     * 로카모빌리티 결제 시스템 연동을 위한 프로세스 구축
     * 실시간 거래 내역 연동 API 개발
     * 택시 가맹점 정보 연동 Batch 프로그램 개발
     * 로카모빌리티 정산 및 입금 내역 연동 Batch 프로그램 개발
 
-      **Project Specs**
-      `Kotlin`, `Spring Boot`, `Spring Batch`, `Spring Data JPA`, `Oracle`, `Gradle`
+    **Project Specs**
+    `Kotlin`, `Spring Boot`, `Spring Batch`, `Spring Data JPA`, `Oracle`, `Gradle`
+
+- layout: top-middle
+  name: Mock API 지원 Core Component 개발/운영
+  quote: >
+    코나아이 (2021.11 ~ 2021.12)
+  description: |
+    * 외부 솔루션 연동이 필요한 프로젝트 진행 지원을 위한 Mock Test Server 구축
+    * 간단한 API 등록만으로 외부 솔루션 API 서비스 구현하고 테스트 지원
+    * 별도 DB Schema 또는 REST API 개발 없이 테스트 지원
+    * `MongoDB` 활용한 동적 **Data Schema** 구성 및 API 구성
+
+    **Project Specs**
+    `Kotlin`, `Spring Boot`, `Spring Data JPA`, `MongoDB`, `Gradle`
 
 - layout: top-middle
   name: 하나원큐 2.0 고도화
