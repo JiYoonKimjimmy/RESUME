@@ -15,6 +15,7 @@
       * 기부 서비스
       * 지역화폐 이관 지원 서비스
       * 외부 API 테스트 연동 Mock Server
+      * 결제플랫폼 OpenAPI 환경 APIGateway 구축
 - layout: top
   company: 아톤 ATON
   link: http://www.atoncorp.com/

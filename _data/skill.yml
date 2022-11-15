@@ -2,8 +2,8 @@
   name: Back-end
   description: | # this will include new lines to allow paragraphs
     * Java, Kotlin
-    * Spring Framework, Spring Boot, Spring Batch, Spring Security
-    * JPA, Querydsl
+    * Spring Framework, Spring Boot, Spring Webflux, Spring Batch, Spring Etc..
+    * JPA, QueryDSL
     * Gradle
     * Redis, RabbitMQ
 - layout: left
@@ -15,6 +15,6 @@
 - layout: left
   name: DevOps
   description: | # this will include new lines to allow paragraphs
-    * Oracle, MongoDB
+    * Oracle, MySQL, MongoDB
     * Jenkins
-    * Linux Centos
+    * Linux CentOS
