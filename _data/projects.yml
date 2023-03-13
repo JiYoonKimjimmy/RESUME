@@ -15,7 +15,7 @@
 - layout: top-middle
   name: 지역화폐 서비스 이관 지원 Core Component 개발/운영
   quote: >
-    코나아이 (2021.03 ~ 현제)
+    코나아이 (2021.03 ~ 현재)
   description: |
     * 타사 AS-IS 지역 화폐 정보 이관 관리 Rest API 신규/운영 개발
     * 기존 회원 정보 연동
