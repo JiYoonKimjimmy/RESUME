@@ -10,7 +10,7 @@
     * 타사 서비스 회원 가입 여부 및 정보 조회 API 제공
 
     **Project Specs**
-    Java, Kotlin, Spring Boot, Spring Data JPA, Oracle, Gradle
+    Java, Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
 
 - layout: top-middle
   name: 지역화폐 서비스 이관 지원 Core Component 개발/운영
