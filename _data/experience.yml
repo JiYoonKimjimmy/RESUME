@@ -6,11 +6,13 @@
   quote: >
     연간 1조원 이상 결제 승인되는 선불 카드 결제 플랫폼 운영, 각 지자체 요건에 맞는 대국민 지역 화폐 서비스 운영
   description: | # this will include new lines to allow paragraphs
-    * 코나 선불 카드 결제 플랫폼 개발/운영하며 국내 지자체 대국민 지역 화폐 서비스 제공
+    * 선불형 카드 결제 플랫폼 서비스 개발/운영
+    * 선불카드 기반 국내 다양한 지자체 대국민 지역 화폐 서비스 제공
     * `MSA` 구조의 Core 서버 인프라 구조 개발
-    * Java, Kotlin 을 활용한 **Spring Framework 기반의 REST API 서버 개발**
-    * **Spring Data JPA** 및 **QueryDSL** 개발
-    * **담당 Component**
+    * `Java`, `Kotlin` 을 활용한 <mark>Spring F/W</mark> 기반의 REST API 서버 개발
+    * **Spring Data JPA** & **QueryDSL** 개발
+    * **Oracle** DB 개발
+    * **담당 개발 Component**
       * 회원 관리 서비스
       * 기부 서비스
       * 지역화폐 이관 지원 서비스
