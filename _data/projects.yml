@@ -69,7 +69,7 @@
 - layout: top-middle
   name: 결제플랫폼 OpenAPI 환경 Gateway 개발/운영
   quote: >
-    코나아이 (2022.06 ~ 진행 중)
+    코나아이 (2022.11 ~ 진행 중)
   description: |
     * 코나 선불카드 결제플랫폼 서비스를 OpenAPI 제공하기 위한 프로젝트 참여
     * Client 요청에 대한 Routing 및 API 인증/인가 처리하는 APIGateway 서버 신규 개발
