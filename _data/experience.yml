@@ -9,15 +9,14 @@
     * 선불형 카드 결제 플랫폼 서비스 개발/운영
     * 선불카드 기반 국내 다양한 지자체 대국민 지역 화폐 서비스 제공
     * `MSA` 구조의 Core 서버 인프라 구조 개발
-    * `Java`, `Kotlin` 을 활용한 <mark>Spring F/W</mark> 기반의 REST API 서버 개발
-    * **Spring Data JPA** & **QueryDSL** 개발
-    * **Oracle** DB 개발
-    * **담당 개발 Component**
-      * 회원 관리 서비스
+    * **Java**, **Kotlin** 을 활용한 **Spring F/W** 기반의 API 서버 개발
+
+      **담당 개발 Component**
+      * 회원 정보 관리 서비스
       * 기부 서비스
       * 지역화폐 이관 지원 서비스
-      * 외부 API 테스트 연동 Mock Server
       * 결제플랫폼 OpenAPI 환경 APIGateway 구축
+      * 외부 API 테스트 연동 Mock Server 구축
 - layout: top
   company: 아톤 ATON
   link: http://www.atoncorp.com/
