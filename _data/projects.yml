@@ -14,31 +14,36 @@
     Java, Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
 
 - layout: top-middle
-  name: 지역화폐 서비스 이관 지원 Core Component 개발/운영
-  quote: >
-    코나아이 (2021.03 ~ 현재)
-  description: |
-    * 타사 AS-IS 지역 화폐 정보 이관 관리 Rest API 신규/운영 개발
-    * AS-IS 서비스 기반 DB 분석 및 마이그레이션 처리를 위한 신규 DB 모델링 설계/운영
-    * AS-IS 서비스 회원 정보 연동 프로세스 구축
-    * AS-IS 서비스 잔액 원장, 카드 원장, 거래 내역 원장 등 필요한 데이터 이관 프로세스 구축
-    * 지역 화폐 이관 서비스 대상
-      * <mark>2021</mark> **부산동백전** (회원 : 약 300만 명, 거래 내역 : 약 3억 건)
-      * <mark>2022</mark> **김포페이** (회원 : 약 30만 명, 거래 내역 : 약 8000만 건)
-
-    **Project Specs**
-    Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
-
-- layout: top-middle
   name: 기부 서비스 Core Component 개발/운영
   quote: >
     코나아이 (2021.10 ~ 현재)
   description: |
     * 지역화폐 기반 기부 서비스 관리 운영 개발
-    * 기부 등록/수정/완료 처리 등 다양한 기부 서비스 관련 API 개발
+    * 기부 모금회 정보 등록/관리 프로세스 제공
+    * `지자체 + 모금회` 기부 캠페인 등록/관리 프로세스 제공
+    * 일시 기부, 정기 기부, 실시간 리워드 기부 등 다양한 기부 결제 프로세스 제공
+    * 카드 잔액, 포인트 등 다양한 기부 수단 결제 결제 프로세스 제공
 
     **Project Specs**
     Kotlin, Spring Boot, Spring Data JPA, QueryDSL, Oracle, Gradle
+
+- layout: top-middle
+  name: 결제플랫폼 OpenAPI 환경 Gateway 개발/운영
+  quote: >
+    코나아이 (2022.11 ~ 2023.01)
+  description: |
+    * 코나 선불카드 결제플랫폼 서비스를 OpenAPI 제공하기 위한 프로젝트 참여
+    * Client 요청에 대한 Routing 및 API 인증/인가 처리하는 APIGateway 서버 신규 개발
+    * `Spring Cloud Gateway` 개발 환경을 구축하고, `Filter` 인터페이스 구현하여 Gateway 기능 제공
+    * OpenAPI 사용하기 위한 API Access Key 발급 및 인증 처리
+    * API 요청 Call-Count 체크 및 제한 처리
+    * API HTTP Body 암호화 및 복호화 처리
+    * OpenAPI 파트너 Callback API 요청 Routing 처리
+    * OpenAPI 파트너 테스트 집계 처리
+    * `Reactive` & `Functional` 프로그래밍 개발 기법 도입
+
+    **Project Specs**
+    Kotlin, Spring Cloud Gateway, Spring Webflux, Spring Data R2DBC, MySQL, Reactive Redis, RabbitMQ, Gradle
 
 - layout: top-middle
   name: 로카모빌리티 결제 시스템 연동 Core Component 개발/운영
@@ -54,6 +59,22 @@
     Kotlin, Spring Boot, Spring Batch, Spring Data JPA, Oracle, Gradle
 
 - layout: top-middle
+  name: 지역화폐 서비스 이관 지원 Core Component 개발/운영
+  quote: >
+    코나아이 (2021.03 ~ 2021.04 / 2022.05 ~ 2022.06)
+  description: |
+    * 타사 AS-IS 지역 화폐 정보 이관 관리 Rest API 신규/운영 개발
+    * AS-IS 서비스 기반 DB 분석 및 마이그레이션 처리를 위한 신규 DB 모델링 설계/운영
+    * AS-IS 서비스 회원 정보 연동 프로세스 구축
+    * AS-IS 서비스 잔액 원장, 카드 원장, 거래 내역 원장 등 필요한 데이터 이관 프로세스 구축
+    * 지역 화폐 이관 서비스 대상
+      * <mark>2022</mark> 김포 지역화폐 **김포페이** (회원 : 약 30만 명, 거래 내역 : 약 8000만 건)
+      * <mark>2021</mark> 부산 지역화폐 **부산동백전** (회원 : 약 300만 명, 거래 내역 : 약 3억 건)
+
+    **Project Specs**
+    Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
+
+- layout: top-middle
   name: Mock API 지원 Core Component 개발/운영
   quote: >
     코나아이 (2021.11 ~ 2021.12)
@@ -65,24 +86,6 @@
 
     **Project Specs**
     Kotlin, Spring Boot, Spring Data JPA, MongoDB, Gradle
-
-- layout: top-middle
-  name: 결제플랫폼 OpenAPI 환경 Gateway 개발/운영
-  quote: >
-    코나아이 (2022.11 ~ 진행 중)
-  description: |
-    * 코나 선불카드 결제플랫폼 서비스를 OpenAPI 제공하기 위한 프로젝트 참여
-    * Client 요청에 대한 Routing 및 API 인증/인가 처리하는 APIGateway 서버 신규 개발
-    * `Spring Cloud Gateway` 개발 환경을 구축하고, `Filter` 인터페이스 구현하여 Gateway 기능 제공
-    * OpenAPI 사용하기 위한 API Access Key 발급 및 인증 처리
-    * API 요청 Call-Count 체크 및 제한 처리
-    * API HTTP Body 암호화 및 복호화 처리
-    * OpenAPI 파트너 Callback API 요청 Routing 처리
-    * OpenAPI 파트너 테스트 집계 처리
-    * `Reactive` & `Functional` 프로그래밍 개발 기법 도입
-
-    **Project Specs**
-    Kotlin, Spring Cloud Gateway, Spring Webflux, Spring Data R2DBC, MySQL, Reactive Redis, RabbitMQ, Gradle
 
 - layout: top-middle
   name: 하나원큐 2.0 고도화
