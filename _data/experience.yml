@@ -8,6 +8,8 @@
   description: | # this will include new lines to allow paragraphs
     * 선불형 카드 결제 플랫폼 서비스 개발/운영
     * 선불카드 기반 국내 다양한 지자체 대국민 지역 화폐 서비스 제공
+    * 지역화폐 서비스 바탕의 기부, 배달, 택시 등 다양한 부가서비스 제공
+    * 결제플랫폼 **OpenAPI** 제휴 연동 서비스 제공
     * `MSA` 구조의 Core 서버 인프라 구조 개발
     * **Java**, **Kotlin** 을 활용한 **Spring F/W** 기반의 API 서버 개발
 
@@ -26,7 +28,7 @@
     핀테크 보안 솔루션를 활용한 간편 인증 서비스 운영, 제1금융권 웹 어플리케이션 프로젝트 다수 진행
   description: | # this will include new lines to allow paragraphs
     * KB국민은행, IBK기업은행, KEB하나은행 제1금융권 프로젝트 참여
-    * **아톤모빌리티** 자회사 중고차 유통 플랫폼 시스템 고도화 프로젝트 참여
+    * 아톤모빌리티 자회사 중고차 유통 플랫폼 시스템 고도화 프로젝트 참여
     * HTML, JavaScript, jQuery, Vue.js 를 활용한 Web Front-End 개발
     * Java, Spring Framework, JPA 등 Java 기반의 Back-End 개발
     * 각각 다른 협력사의 개발 환경에 맞춰 다양한 플랫폼 및 서비스 개발 경험
