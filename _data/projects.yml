@@ -20,8 +20,8 @@
   description: |
     * 지역화폐 기반 기부 서비스 관리 운영 개발
     * 기부 모금회 정보 등록/관리 프로세스 제공
-    * `지자체 + 모금회` 기부 캠페인 등록/관리 프로세스 제공
-    * 일시 기부, 정기 기부, 실시간 리워드 기부 등 다양한 기부 결제 프로세스 제공
+    * 기부 캠페인 등록/관리 프로세스 제공
+    * 일시 기부, 정기 기부, 실시간 리워드 기부 3가지 다양한 기부 결제 프로세스 제공
     * 카드 잔액, 포인트 등 다양한 기부 수단 결제 결제 프로세스 제공
 
     **Project Specs**
@@ -46,14 +46,14 @@
     Kotlin, Spring Cloud Gateway, Spring Webflux, Spring Data R2DBC, MySQL, Reactive Redis, RabbitMQ, Gradle
 
 - layout: top-middle
-  name: 로카모빌리티 결제 시스템 연동 Core Component 개발/운영
+  name: 외부 제휴사 결제/정산 내역 연동 Core Component 개발/운영
   quote: >
     코나아이 (2022.02 ~ 2022.05)
   description: |
-    * 로카모빌리티 결제 시스템 연동을 위한 프로세스 구축
+    * 외부 제휴사 로카모빌리티 결제/정산 내역 연동을 위한 프로세스 구축
     * 실시간 거래 내역 연동 API 개발
-    * 택시 가맹점 정보 연동 Batch 프로그램 개발
-    * 로카모빌리티 정산 및 입금 내역 연동 Batch 프로그램 개발
+    * 가맹점 정보 연동 Batch 프로그램 개발
+    * 결제 정산 대금 및 입금 내역 연동 Batch 프로그램 개발
 
     **Project Specs**
     Kotlin, Spring Boot, Spring Batch, Spring Data JPA, Oracle, Gradle
@@ -64,12 +64,14 @@
     코나아이 (2021.03 ~ 2021.04 / 2022.05 ~ 2022.06)
   description: |
     * 타사 AS-IS 지역 화폐 정보 이관 관리 Rest API 신규/운영 개발
-    * AS-IS 서비스 기반 DB 분석 및 마이그레이션 처리를 위한 신규 DB 모델링 설계/운영
+    * 코나 지역화폐 서비스 기준 이관 DB 신규 테이블 모델링 및 구축
+    * AS-IS 서비스 기반 DB 분석 및 마이그레이션 SQL 개발
     * AS-IS 서비스 회원 정보 연동 프로세스 구축
     * AS-IS 서비스 잔액 원장, 카드 원장, 거래 내역 원장 등 필요한 데이터 이관 프로세스 구축
     * 지역 화폐 이관 서비스 대상
-      * <mark>2022</mark> 김포 지역화폐 **김포페이** (회원 : 약 30만 명, 거래 내역 : 약 8000만 건)
-      * <mark>2021</mark> 부산 지역화폐 **부산동백전** (회원 : 약 300만 명, 거래 내역 : 약 3억 건)
+      * <mark>2023</mark> 울산 지역화폐 **울산페이** (회원 : 약 53만명, 거래 내역 : 약 10,000만건)
+      * <mark>2022</mark> 김포 지역화폐 **김포페이** (회원 : 약 30만명, 거래 내역 : 약 8,000만건)
+      * <mark>2021</mark> 부산 지역화폐 **부산동백전** (회원 : 약 300만명, 거래 내역 : 약 30,000만건)
 
     **Project Specs**
     Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
