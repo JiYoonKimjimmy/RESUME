@@ -13,12 +13,13 @@
     * `MSA` 구조의 Core 서버 인프라 구조 개발
     * **Java**, **Kotlin** 을 활용한 **Spring F/W** 기반의 API 서버 개발
 
-      **담당 개발 Component**
+      **담당 업무 서비스**
       * 회원 정보 관리 서비스
       * 기부 서비스
       * 지역화폐 이관 지원 서비스
-      * 결제플랫폼 OpenAPI 환경 APIGateway 구축
-      * 외부 API 테스트 연동 Mock Server 구축
+      * 결제플랫폼 OpenAPI 환경 APIGateway 서비스
+      * 외부 API 테스트 연동 Mock Server 서비스
+
 - layout: top
   company: 아톤 ATON
   link: http://www.atoncorp.com/
