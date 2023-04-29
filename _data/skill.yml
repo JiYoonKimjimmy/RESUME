@@ -6,6 +6,7 @@
     * JPA, QueryDSL
     * Gradle
     * Redis, RabbitMQ
+    * Elasticsearch
 - layout: left
   name: Front-end
   description: | # this will include new lines to allow paragraphs
@@ -18,3 +19,4 @@
     * Oracle, MySQL, MongoDB
     * Jenkins
     * Linux CentOS
+    * GitHub, GitLab
