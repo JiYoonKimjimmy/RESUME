@@ -28,6 +28,18 @@
     Kotlin, Spring Boot, Spring Data JPA, QueryDSL, Oracle, Gradle
 
 - layout: top-middle
+  name: Elasticsearh 기반 주소 연계 정보 연동 서비스 개발/운영
+  quote: >
+    코나아이 (2023.06 ~ 개발진행중)
+  description: |
+    * 사내 결제 가맹점의 주소 및 좌표 정보 수집하기 위한 개발
+    * [주소기반산업지원서비스](https://business.juso.go.kr/addrlink/main.do)의 **주소연계정보 일변동 데이터** 연동 및 수집하여 Elasticsearh 데이터화
+    * 카드매입사 결제 가맹점 정보를 기반으로 주소연계정보 데이터 조회/검색할 수 있도록 API 제공
+
+    **Project Specs**
+    Kotlin, Spring Boot, Spring Data JPA, QueryDSL, Oracle, Elasticsearh, Gradle
+
+- layout: top-middle
   name: 결제플랫폼 OpenAPI 환경 Gateway 개발/운영
   quote: >
     코나아이 (2022.11 ~ 2023.01)
