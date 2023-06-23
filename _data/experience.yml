@@ -18,6 +18,7 @@
       * 기부 서비스
       * 지역화폐 이관 지원 서비스
       * 결제플랫폼 OpenAPI 환경 APIGateway 서비스
+      * Elasticsearh 기반 주소 연계 정보 연동 서비스
       * 외부 API 테스트 연동 Mock Server 서비스
 
 - layout: top
