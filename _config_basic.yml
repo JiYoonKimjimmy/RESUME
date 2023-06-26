@@ -1,0 +1,63 @@
+# Site
+repository: JiYoonKimjimmy/RESUME
+# favicon: images/favicon.ico
+
+# Personal info
+name: 김지윤
+title: Back-End 개발자
+# email: jimmyberg.kim@gmail.com
+# website: jiyoonkimjimmy.github.io
+
+# Social links
+github_username: JiYoonKimjimmy
+# twitter_username: jekyll
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+linkedin_username: jim-kim-7001451b5
+# pinterest_username: jekyll
+# youtube_username: jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  #### Back-End 개발자로서,
+  <br>
+  첫 개발의 시작은 다양한 금융 Application 개발 프로젝트를 통해 **Front-End & Back-End** 개발이였습니다.
+  이런 경험을 통해 프론트엔드와 백엔드 개발을 모두 할 수 있는 풀스택 개발자라는 장점을 있었지만, 프로젝트 진행하면서 서비스를 구성하는 전체 인프라 구조와 시스템 아키텍처에 대한 관심이 높아졌고,
+  보다 **전문적인 백엔드 개발자**가 되고 싶다는 욕심이 가지게 되었습니다.
+  <br><br>
+  현재는 백엔드 개발자로서 단순히 서비스 `REST API` 개발하고 제공하는 것뿐 아니라,
+  높은 트래픽을 고려한 작은 코딩부터 오픈 소스 미들웨어를 활용하여 시스템 부하를 줄일 수 있도록 도와주는 인프라 구성에도 관심을 가지고 집중하여 운영 환경에 반영하기 위해 노력하고 있습니다.
+  <br><br>
+  모든 개발자가 그렇듯이, 새로운 것에 항상 도전하는 의지로 기초적인 개발 기술일지라도 `A` 부터 `Z` 까지 차근차근 배우고 익혀가는 것과
+  다양한 경험을 토대로 학습한 기술력을 최대 활용하는 것을 즐기고 좋아합니다. 좋은 가독성, 편한 유지 보수성, 사이드 장애가 없는 서비스를 개발하기 위해 노력하고 있습니다.
+  <br><br>
+  **사막을 묵묵히 한 걸음씩 건너가는 낙타처럼, 느릴 수도 있지만 목표를 향해 정확하게, 그리고 끝까지 나아갈 수 있는 개발자가 되는 것이 저의 꿈입니다.**
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
