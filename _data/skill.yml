@@ -2,17 +2,19 @@
   name: Back-end
   description: | # this will include new lines to allow paragraphs
     * Java, Kotlin
-    * Spring Framework, Spring Boot, Spring Webflux, Spring Batch, Spring Etc..
+    * Spring Framework, Spring Boot, Spring Webflux, Spring Batch, Spring F/W Etc..
     * JPA, QueryDSL
     * Gradle
     * Redis, RabbitMQ
     * Elasticsearch
+
 - layout: left
   name: Front-end
   description: | # this will include new lines to allow paragraphs
     * HTML, CSS, jQuery
     * JavaScript ES5, ES6+
     * Vue.js
+
 - layout: left
   name: DevOps
   description: | # this will include new lines to allow paragraphs
