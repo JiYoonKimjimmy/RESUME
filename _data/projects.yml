@@ -8,6 +8,8 @@
     * 핀테크 보안 점검 대응을 위한 로그인, 간편 비밀번호 검증 신규 프로세스 개발 구축
     * 파트너 제휴사 서비스 회원 가입 여부 및 정보 조회 API 제공
     * 탈퇴 회원 정보 분리 보관 및 보존 기간 만료된 정보 파기 Batch 신규 프로세스 개발 구축
+    * 회원 간편 가입 신규 프로세스 구축
+    * DI연계정보 무효화 및 통합 인증 회원 체계 구축
 
     **Project Specs**
     Java, Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
@@ -21,7 +23,9 @@
     * 기부 모금회 정보 등록/관리 프로세스 제공
     * 기부 캠페인 등록/관리 프로세스 제공
     * 일시 기부, 정기 기부, 실시간 리워드 기부 3가지 다양한 기부 결제 프로세스 제공
-    * 카드 잔액, 포인트 등 다양한 기부 수단 결제 결제 프로세스 제공
+    * 카드 충전잔액, 포인트 등 다양한 기부 수단 결제 프로세스 제공
+    * 충전잔액 & 포인트, 다중 포인트 사용한 복합 기부 형태의 신규 프로세스 구축
+    * 기부 서비스 고도화 버전 백엔드 프로세스 개선 및 신규 개발
 
     **Project Specs**
     Kotlin, Spring Boot, Spring Data JPA, QueryDSL, Oracle, Gradle
@@ -29,17 +33,19 @@
 - layout: top-middle
   name: Elasticsearh 기반 주소 연계 정보 연동 서비스 개발 <small><i>(설계 단계)</i></small>
   dates: >
-    코나아이 (2023.06 ~ 개발진행중)
+    코나아이 (2023.06 ~ 2023.11)
   quote: >
     현재 Elasticsearh 학습 및 실습 진행 중
   description: |
-    * 사내 결제 가맹점의 주소 및 좌표 정보 수집하기 위한 신규 주소 데이터 수집 시스템 개발
-    * 국가주소기반산업지원서비스의 주소연계정보 일변동 데이터 연동 및 수집
-    * 수집된 주소연계정보 일변동 데이터 Elasticsearh 데이터 적재
-    * 주소연계정보 Elasticsearh 데이터 조회/검색할 수 있도록 REST API 제공
+    * 사내 매입 가맹점의 주소 및 좌표 정보 수집하기 위한 신규 주소 데이터 수집 시스템 개발
+    * 국가주소기반산업지원서비스(주소정보누리집)의 주소연계정보 일변동 데이터 연동 및 수집
+    * 수집 주소연계정보 일변동 데이터 Elasticsearh 데이터 저장
+    * 주소 검색 최적화를 위한 Elasticsearch 인덱스 설계 및 애널라이저 구성
+    * 기본/상세 주소 기반 Elasticsearch 도큐먼트 검색 Query 개발
+    * Elasticsearh 데이터 조회 REST API 제공
 
     **Project Specs**
-    Kotlin, Spring Boot, Spring Data JPA, QueryDSL, Oracle, Elasticsearh, Gradle
+    Elasticsearh, Logstash, Filebeat, Kotlin, Spring F/W, Gradle
 
 - layout: top-middle
   name: 결제플랫폼 OpenAPI 환경 Gateway 개발/운영
@@ -75,7 +81,7 @@
 - layout: top-middle
   name: 지역화폐 서비스 이관 지원 Core Component 개발/운영
   dates: >
-    코나아이 (2021.03 ~ 2021.04 / 2022.05 ~ 2022.06)
+    코나아이 (2021.03 ~ 2021.04 / 2022.05 ~ 2022.06 / 2023.05 ~ 2023.06)
   description: |
     * 타사 AS-IS 지역 화폐 정보 이관 관리 Rest API 신규/운영 개발
     * 코나 지역화폐 서비스 기준 이관 DB 신규 테이블 모델링 및 구축
