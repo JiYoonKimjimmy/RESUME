@@ -31,7 +31,7 @@
     Kotlin, Spring Boot, Spring Data JPA, QueryDSL, Oracle, Gradle
 
 - layout: top-middle
-  name: Elasticsearh 기반 주소 연계 정보 연동 서비스 개발 <small><i>(설계 단계)</i></small>
+  name: Elasticsearh 기반 주소 연계 정보 연동 서비스 개발
   dates: >
     코나아이 (2023.06 ~ 2023.11)
   quote: >
@@ -39,10 +39,10 @@
   description: |
     * 사내 매입 가맹점의 주소 및 좌표 정보 수집하기 위한 신규 주소 데이터 수집 시스템 개발
     * 국가주소기반산업지원서비스(주소정보누리집)의 주소연계정보 일변동 데이터 연동 및 수집
-    * 수집 주소연계정보 일변동 데이터 Elasticsearh 데이터 저장
-    * 주소 검색 최적화를 위한 Elasticsearch 인덱스 설계 및 애널라이저 구성
-    * 기본/상세 주소 기반 Elasticsearch 도큐먼트 검색 Query 개발
-    * Elasticsearh 데이터 조회 REST API 제공
+    * 수집 주소연계정보 일변동 데이터 `Elasticsearh` 데이터 저장
+    * 주소 검색 최적화를 위한 `Elasticsearch` 인덱스 설계 및 애널라이저 구성
+    * 기본/상세 주소 기반 `Elasticsearch` 도큐먼트 검색 Query 개발
+    * `Elasticsearh` 기반 주소 데이터 조회 REST API 제공
 
     **Project Specs**
     Elasticsearh, Logstash, Filebeat, Kotlin, Spring F/W, Gradle
