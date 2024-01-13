@@ -28,3 +28,26 @@
     해당 프로젝트를 진행하면서 개발 외적으로, 새로운 시스템을 구축하는 과정에서 서비스 용도에 맞는 기술 스펙을 선정하는 과정과
     새로운 기술에 대해서는 첫 단추부터 차근차근 채워가는 것이 얼마나 중요한지를 깨닫게 되었습니다.
     또한 성공적인 협업을 위해서 함께 일하는 동료들과 학습해가는 방식과 지식 공유 등 함께 성장할 수 있는 개발의 즐거움도 느끼게 되었습니다.
+- layout: top
+  name: 주소연계정보 연동 시스템 Elasticsearch 도입기,
+  quote: >
+    #Elasticseach, #주소정보연동
+  description: |
+    - 주소연걔정보 연동 시스템 간략 소개
+    - 서비스 아키텍처
+    - Elasticsearch 인프라 구성
+    - Elasticsearch 설계
+    - 주소 정보 조회 ES Query
+    - 프로젝트 트러블 슈팅
+- layout: top
+  name: 회원 본인인증 정보 임시 저장을 위한 Cache 처리,
+  quote: >
+    #Cache, #Redis, #SpringDataRedis
+  description: |
+    - 회원 본인인증 정보 임시 저장 사유
+    - 서비스 아키텍처
+    - Redis 선택 이유
+    - Spring Data Redis 활용 사유
+    - Cache 처리 구현 방식
+    - Spring Data Redis 의 Phantom copy 관련 내용
+    - 프로젝트 트러블 슈팅
