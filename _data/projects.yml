@@ -15,6 +15,19 @@
     Java, Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
 
 - layout: top-middle
+  name: 해외 송금 서비스 신규 개발
+  dates: 코나아이 (2024.02 ~ 현재)
+  description: |
+    * 해외 송금을 위한 서비스 신규 개발
+    * 해외 송금 처리를 위한 통화별 예치금 계좌 관리 관련 API 신규 개발 및 제공
+    * 예치금 계좌 외화 거래 트랜잭션 관리
+    * 예치금 계좌 외화 거래 내역 정보 관리
+    * 실시간 환율 정보 조회 API 신규 개발 및 제공
+
+    **Project Specs**
+    Kotlin, Spring Boot, Spring Data JPA, Spring Data Redis, QueryDSL, Oracle, Gradle
+
+- layout: top-middle
   name: 기부 관리 서비스 개발/운영
   dates: >
     코나아이 (2021.10 ~ 현재)
