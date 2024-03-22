@@ -1,0 +1,6 @@
+<div class="container introduce-container">
+  <h3>{{ site.company_title | default: "Company" }}</h3>
+  {% for company in site.data.company %}
+    {% include {{ company.layout | default: 'left' | append: ".html" }} item=company %}
+  {% endfor %}
+</div>
