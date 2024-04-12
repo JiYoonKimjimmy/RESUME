@@ -28,22 +28,6 @@
     Kotlin, Spring Boot, Spring Data JPA, Spring Data Redis, QueryDSL, Oracle, Gradle
 
 - layout: top-middle
-  name: 기부 관리 서비스 개발/운영
-  dates: >
-    코나아이 (2021.10 ~ 현재)
-  description: |
-    - 지역화폐 기반 기부 서비스 관리 운영 개발
-    - 기부 모금회 정보 등록/관리 프로세스 제공
-    - 기부 캠페인 등록/관리 프로세스 제공
-    - 일시 기부, 정기 기부, 실시간 리워드 기부 3가지 다양한 기부 결제 프로세스 제공
-    - 카드 충전잔액, 포인트 등 다양한 기부 수단 결제 프로세스 제공
-    - 충전잔액 & 포인트, 다중 포인트 사용한 복합 기부 형태의 신규 프로세스 구축
-    - 기부 서비스 고도화 버전 백엔드 프로세스 개선 및 신규 개발
-
-    **Project Specs**
-    Kotlin, Spring Boot, Spring Data JPA, QueryDSL, Oracle, Gradle
-
-- layout: top-middle
   name: Elasticsearh 기반 주소 연계 정보 연동 서비스 개발
   dates: >
     코나아이 (2023.06 ~ 2023.11)
@@ -108,6 +92,22 @@
 
     **Project Specs**
     Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
+
+- layout: top-middle
+  name: 기부 관리 서비스 개발/운영
+  dates: >
+    코나아이 (2021.10 ~ 현재)
+  description: |
+    - 지역화폐 기반 기부 서비스 관리 운영 개발
+    - 기부 모금회 정보 등록/관리 프로세스 제공
+    - 기부 캠페인 등록/관리 프로세스 제공
+    - 일시 기부, 정기 기부, 실시간 리워드 기부 3가지 다양한 기부 결제 프로세스 제공
+    - 카드 충전잔액, 포인트 등 다양한 기부 수단 결제 프로세스 제공
+    - 충전잔액 & 포인트, 다중 포인트 사용한 복합 기부 형태의 신규 프로세스 구축
+    - 기부 서비스 고도화 버전 백엔드 프로세스 개선 및 신규 개발
+
+    **Project Specs**
+    Kotlin, Spring Boot, Spring Data JPA, QueryDSL, Oracle, Gradle
 
 - layout: top-middle
   name: Mock API 지원 Core Component 개발/운영
