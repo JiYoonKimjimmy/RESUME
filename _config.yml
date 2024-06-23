@@ -24,11 +24,11 @@ about_profile_image: images/profile.jpg
 about_content: |
   * Birth  : 1990.03.09
   * Phone  : 010 - 2032 - 6457
-  * School : 수원대학교 정보통신공학과
   * Email  : jimmyberg.kim@gmail.com
   * Blog   : jiyoonkimjimmy.github.io
   * Github : https://github.com/JiYoonKimjimmy
-
+  
+#  * School : 수원대학교 정보통신공학과
 # Projects Section
 # projects_title: Projects
 
