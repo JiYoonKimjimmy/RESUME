@@ -52,7 +52,6 @@
     - 수집 주소연계정보 일변동 데이터 `Elasticsearh` 데이터 저장
     - 주소 검색 최적화를 위한 `Elasticsearch` 인덱스 설계 및 애널라이저 구성
     - 기본/상세 주소 기반 `Elasticsearch` 도큐먼트 검색 Query 개발
-    - `Elasticsearh` 기반 주소 데이터 조회 REST API 제공
 
     **Project Specs**
     Elasticsearh, Logstash, Filebeat, Kotlin, Spring F/W, Gradle
