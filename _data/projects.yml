@@ -17,12 +17,13 @@
     Java, Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
 
 - layout: top-middle
-  name: 가상 계좌 연동 관리 신규 개발
+  name: 가상계좌 연동 관리 신규 개발
   dates: 코나아이 (2024.05 ~ 진행 중)
   description: |
-    - 가상 계좌 & 선불 카드 연결을 위한 가상 계좌 연동 관리 서비스 신규 개발
-    - 은행에서 발행되는 가상 계좌를 선불 카드에 연결하고 연결 정보 관리
-    - 회원 은행의 가상 계좌로 입금되는 경우 선불 카드의 입금 금액 충전 처리
+    - 가상계좌 & 선불카드 연동 위한 가상계좌 연동 관리 서비스 신규 개발
+    - 은행사 발행 가상계좌 정보 선불카드 연동 처리 및 정보 관리
+    - 가상계좌 입금 전문 요청 기준 선불카드 잔액 충전 처리
+    - 일일 가상계좌 입금 전문 요청 성공 데이터 집계 처리
 
     **Project Specs**
     Kotlin, Spring Boot, Spring Data JPA, Spring Data Redis, Kotlin JDSL, Oracle, Gradle
