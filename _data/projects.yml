@@ -18,12 +18,13 @@
 
 - layout: top-middle
   name: 가상계좌 연동 관리 신규 개발
-  dates: 코나아이 (2024.05 ~ 진행 중)
+  dates: 코나아이 (2024.05 ~ 2024.10)
   description: |
-    - 가상계좌 & 선불카드 연동 위한 가상계좌 연동 관리 서비스 신규 개발
-    - 은행사 발행 가상계좌 정보 선불카드 연동 처리 및 정보 관리
-    - 가상계좌 입금 전문 요청 기준 선불카드 잔액 충전 처리
-    - 일일 가상계좌 입금 전문 요청 성공 데이터 집계 처리
+    - 은행 가상계좌 & 선불카드 연동 위한 가상계좌 연동 관리 서비스 신규 개발
+    - 은행사 발행 가상계좌 정보 관리
+    - 가상계좌 & 선불카드 연동하여 카드 발급 프로세스 구축
+    - 가상계좌 입금/입금취소 등 은행사 거래 전문 연동
+    - 가상계좌 입금 거래 기준 선불카드 잔액 충전 프로세스 구축
 
     **Project Specs**
     Kotlin, Spring Boot, Spring Data JPA, Spring Data Redis, Kotlin JDSL, Oracle, Gradle
@@ -34,14 +35,15 @@
   quote: >
     아쉽게도 오픈하지 못한 서비스 😢
   description: |
-    - 해외 송금 등 외화 관련 서비스 지원을 위한 외환 관리 서비스 신규 개발
+    - 외 송금 등 외화 관련 서비스 지원을 위한 외환 관리 서비스 신규 개발
     - 통화별 매입한 외화 예치금 계좌 관리
-    - 외화 거래에 대한 대기/완료 트랜잭션 관리
+    - 외화 예치금 계좌 잔액/평균 환율 등 외환 정보 관리
+    - 외화 거래 대기/완료 등 거래 트랜잭션 처리 프로세스 구축
     - 외화 거래 내역 정보 관리
-    - 실시간 환율 정보 조회 API 신규 개발 및 제공
+    - 환율 정보 조회 API 서비스 제공
 
     **Project Specs**
-    Kotlin, Spring Boot, Spring Data JPA, Spring Data Redis, QueryDSL, Oracle, Gradle
+    Kotlin, Spring Boot, Spring Data JPA, Spring Data Redis, RabbitMQ, Kotlin JDSL, Oracle, Gradle
 
 - layout: top-middle
   name: Elasticsearh 기반 주소 연계 정보 연동 서비스 개발
@@ -53,6 +55,10 @@
     - 수집 주소연계정보 일변동 데이터 `Elasticsearh` 데이터 저장
     - 주소 검색 최적화를 위한 `Elasticsearch` 인덱스 설계 및 애널라이저 구성
     - 기본/상세 주소 기반 `Elasticsearch` 도큐먼트 검색 Query 개발
+    - 개선 성과
+      - 도로명 주소 검색 성공율 : 89.2% -> **99.8%**
+      - 지번 & 관련-지번 검색 성공율 : 73.3% -> **81.3%**
+      - 평균 1회 주소 검색 소요 시간 : 18ms -> **6ms**
 
     **Project Specs**
     Elasticsearh, Logstash, Filebeat, Kotlin, Spring F/W, Gradle
@@ -192,10 +198,11 @@
     - PHP 기반 API Server를 **Spring Boot** 기반 API Server로 재구축
 
 - layout: top-middle
-  name: 리브똑똑 2.0 KB그룹 전체 조직도 통합
+  name: 리브똑똑 2.0 고도화
   dates: >
     아톤 (feat.KB국민은행) (2017.11 ~ 2018.02)
   description: | # this will include new lines to allow paragraphs
+    - 리브똑똑 2.0 고도화 프로젝트에서 KB그룹 전체 조직도 통합 업무 담당
     - 약 7만명이 등록되어있는 KB금융그룹 전체 조직도 DB 통합 및 메신저 연동 서비스 개발
     - DBLink를 활용한 각 계열사, 지주사 조직도 DB를 Oracle DB로 연동
     - 7만건 데이터 조직도 테이블에 Merge Query 개발

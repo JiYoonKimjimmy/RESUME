@@ -4,23 +4,25 @@
   job_title: Back-End 개발자
   dates: 2020.11 ~ 현재
   quote: >
-    연간 약 1조원 이상 거래액 처리되는 선불 카드 결제 플랫폼 운영, 각 지자체 요건에 맞는 대국민 지역 화폐 서비스 운영
+    누적 회원수 1000만, MAU 500만 이상의 회원 보유하는 선불카드 결제플랫폼 서비스 운영
   description: | # this will include new lines to allow paragraphs
-    * 선불형 결제플랫폼 서비스 제공
+    * 선불형 카드 결제플랫폼 서비스 제공
     * 선불카드 서비스 활용한 국내 다양한 지자체 대국민 지역화폐 서비스 제공
-    * 지역화폐 서비스 기반의 기부, 배달, 택시 등 다양한 부가서비스 제공
-    * 결제플랫폼 OpenAPI 제휴 연동 서비스 제공
-    * MSA 아키텍처 기반 백엔드 개발/운영
-    * Elasticsearch, Redis, RabbitMQ 등 다양한 서드-파티 서비스 연동 개발
+    * 결제플랫폼 기반의 기부, 배달, 택시 등 다양한 부가서비스 제공
+    * 결제플랫폼 제휴 연동을 위한 OpenAPI 서비스 제공
+    * **MSA** 기반 서버 인프라 환경 운영
+    * **Java**, **Kotlin** 활용한 **Spring F/W 기반** 백엔드 애플리케이션 개발
+    * Oracle, Elasticsearch, Redis, RabbitMQ 등 다양한 서드-파티 서비스 활용
 
       **담당 개발/운영 서비스**
       * 회원 정보 관리 서비스
       * 지역화폐 기부 서비스
       * 지역화폐 이관 지원 서비스
+      * 결제플랫폼 웹 연동 Aggregator 서비스
       * 결제플랫폼 OpenAPI 환경 APIGateway 서비스
       * Elasticsearh 기반 주소 연계 정보 연동 서비스
-      * 가상 계좌 연동 관리 서비스 (개발 진행 ing..)
-      * ~~외환 관리 서비스 (서비스 오픈 미정 😢)~~
+      * 가상 계좌 연동 관리 서비스
+      * 외환 관리 서비스 ~~(서비스 오픈 미정 😢)~~
 
 #    *이직 사유 : 좋은 제안을 기회삼아 도전해보고 싶은 마음으로 이직을 결정하였습니다.*
 
@@ -32,7 +34,7 @@
   quote: >
     핀테크 보안 솔루션를 활용한 간편 인증 서비스 운영, 제1금융권 웹 어플리케이션 프로젝트 다수 진행
   description: | # this will include new lines to allow paragraphs
-    * KB국민은행, IBK기업은행, KEB하나은행 제1금융권 프로젝트 참여
+    * KB국민은행, IBK기업은행, KEB하나은행 제1금융권 대형 프로젝트 참여
     * 아톤모빌리티 자회사 중고차 유통 플랫폼 시스템 고도화 프로젝트 참여
     * HTML, JavaScript, jQuery, Vue.js 를 활용한 Web Front-End 개발
     * Java, Spring Framework, JPA 등 Java 기반의 Back-End 개발
