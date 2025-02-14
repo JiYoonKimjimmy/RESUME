@@ -6,13 +6,10 @@
   quote: >
     누적 회원수 1700만, MAU 400만 이상의 회원 보유하는 선불카드 결제플랫폼 서비스 운영
   description: | # this will include new lines to allow paragraphs
-    * 선불형 카드 결제플랫폼 서비스 제공
-    * 선불카드 서비스 활용한 국내 다양한 지자체 대국민 지역화폐 서비스 제공
+    * 선불형 카드 결제플랫폼 서비스 & 국내 다양한 대국민 지역화폐 서비스 제공
     * 결제플랫폼 기반의 기부, 배달, 택시 등 다양한 부가서비스 제공
     * 결제플랫폼 제휴 연동을 위한 OpenAPI 서비스 제공
-    * **MSA** 기반 서버 인프라 환경 운영
     * **Java**, **Kotlin** 활용한 **Spring F/W 기반** 백엔드 애플리케이션 개발
-    * Oracle, Elasticsearch, Redis, RabbitMQ 등 다양한 서드-파티 서비스 활용
 
       **담당 개발/운영 서비스**
       * 회원 정보 관리 서비스
@@ -23,6 +20,13 @@
       * Elasticsearh 기반 주소 연계 정보 연동 서비스
       * 가상 계좌 연동 관리 서비스
       * 외환 관리 서비스 ~~(서비스 오픈 미정 😢)~~
+
+      **Skill**
+      * Java, Kotlin
+      * Spring F/W, Spring Batch, Spring Data JPA, Spring WebFlux, Spring Cloud
+      * Oracle, Elasticsearch
+      * Redis, RabbitMQ
+      * Git, GitLab, Jenkins
 
 #    *이직 사유 : 좋은 제안을 기회삼아 도전해보고 싶은 마음으로 이직을 결정하였습니다.*
 
@@ -36,14 +40,15 @@
   description: | # this will include new lines to allow paragraphs
     * KB국민은행, IBK기업은행, KEB하나은행 제1금융권 대형 프로젝트 참여
     * 아톤모빌리티 자회사 중고차 유통 플랫폼 시스템 고도화 프로젝트 참여
-    * HTML, JavaScript, jQuery, Vue.js 를 활용한 Web Front-End 개발
-    * Java, Spring Framework, JPA 등 Java 기반의 Back-End 개발
-    * 각각 다른 협력사의 개발 환경에 맞춰 다양한 플랫폼 및 서비스 개발 경험
-    * 대형 프로젝트의 개발 프로세스 경험
+    * 대형 프로젝트의 개발 프로세스 경험 바탕의 프로젝트 관리 경험
 
       **대규모 프로젝트 참여 서비스**
       * KB국민은행 : KB스타뱅킹, Liiv 리브, 리브똑똑
       * IBK기업은행 : iONE Bank
       * KEB하나은행 : 하나원큐
+
+      **Skill**
+      * Java, Spring F/W, Spring Data JPA, Oracle
+      * HTML, JavaScript, jQuery, Vue.js
 
 #    *이직 사유 : 개발자로서 좀 더 주도적인 프로젝트 참여와 서비스 개발에 대한 욕심을 가지고 이직을 결심하였습니다.*

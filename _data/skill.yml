@@ -20,5 +20,5 @@
   description: | # this will include new lines to allow paragraphs
     * Oracle, MySQL, MongoDB
     * Jenkins
-    * Linux CentOS
+    * Linux CentOS, Rocky Linux
     * GitHub, GitLab
