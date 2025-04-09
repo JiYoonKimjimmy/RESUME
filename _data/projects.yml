@@ -14,14 +14,26 @@
     Java, Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
 
 - layout: top-middle
+  name: 가맹점 연동 Batch 시스템 성능 최적화
+  dates: 코나아이 (2025.02 ~ 2025.03)
+  description: |
+    - 카드사 가맹점 정보 연동 Batch 시스템 성능 최적화
+    - Spring Batch Partitioner 기능 활용하여 Batch 프로세스 병렬 처리
+    - 연동 처리 건수 기준 동적 Thread Pool 할당하여 리소스 누수 방지
+    - 연동 처리 건수별 처리 시간 측정 및 최적화 지표 도입
+
+    **Project Specs**
+    Java, Spring Batch, Spring Data JPA, Oracle, Gradle
+
+- layout: top-middle
   name: 가상계좌 연동 관리 신규 개발
   dates: 코나아이 (2024.05 ~ 2024.10)
   description: |
-    - 은행 가상계좌 & 선불카드 연동 위한 가상계좌 연동 관리 서비스 신규 개발
+    - 은행사 발행 가상계좌 선불카드 연동 위한 가상계좌 연동 관리 서비스 구축
     - 은행사 발행 가상계좌 정보 관리
-    - 가상계좌 & 선불카드 연동하여 카드 발급 프로세스 구축
-    - 가상계좌 입금/입금취소 등 은행사 거래 전문 연동
-    - 가상계좌 입금 거래 기준 선불카드 잔액 충전 프로세스 구축
+    - 가상계좌 거래 관련 은행사 TCP 전문 연동 프로세스 구축
+    - 가상계좌 입금/입금취소 거래 요청에 따른 선불카드 잔액 충전 연동 프로세스 구축
+    - 프로젝트 리더 업무 담당하여 설계, 개발 단계 참여
 
     **Project Specs**
     Kotlin, Spring Boot, Spring Data JPA, Spring Data Redis, Kotlin JDSL, Oracle, Gradle
@@ -93,7 +105,7 @@
 - layout: top-middle
   name: 지역화폐 서비스 이관 지원 Core Component 개발/운영
   dates: >
-    코나아이 (2021.03 ~ 2021.04 / 2022.05 ~ 2022.06 / 2023.05 ~ 2023.06)
+    코나아이 (2021.03 ~ 2021.04 / 2022.05 ~ 2022.06 / 2023.05 ~ 2023.06 / 2024.12 ~ 2025.02)
   description: |
     - 타사 AS-IS 지역 화폐 정보 이관 관리 Rest API 신규/운영 개발
     - 코나 지역화폐 서비스 기준 이관 DB 신규 테이블 모델링 및 구축
