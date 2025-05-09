@@ -14,6 +14,19 @@
     Java, Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
 
 - layout: top-middle
+  name: 트래픽 제어 서비스(가상 순번 대기 시스템) 신규 개발
+  dates: 코나아이 (2025.04 ~ ing..)
+  description: |
+    - 지역화폐 충전 인센티브 지급 등 일시적으로 폭증하는 트래픽 대응을 위한 자체 가상 순번 대기 시스템 개발
+    - 가상 순번 대기 시스템 : 서비스 부하 제어를 위해 트래픽 요청 순서대로 가상 순번 발급하여 서비스 진입 제어 시스템
+    - 동시접속자 최소 100K 트래픽 대기 및 제어 가능한 분산 시스템 구축
+    - 실시간 트래픽 대기 현황 모니터링 프로세스 구축
+    - 트래픽 대기/진입 정보 집계 및 통계 데이터 관리 프로세스 구축
+
+    **Project Specs**
+    Kotlin, Spring Boot, Redis, RabbitMQ, Oracle, Gradle
+
+- layout: top-middle
   name: 가맹점 연동 Batch 시스템 성능 최적화
   dates: 코나아이 (2025.02 ~ 2025.03)
   description: |

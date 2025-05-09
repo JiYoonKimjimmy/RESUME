@@ -3,8 +3,8 @@
   description: | # this will include new lines to allow paragraphs
     * Java, Kotlin
     * Spring Framework, Spring Boot, Spring Cloud, Spring Webflux, Spring Batch, Spring F/W Etc..
-    * JPA, QueryDSL
-    * Gradle
+    * QueryDSL, KotlinJDSL, Exposed
+    * Oracle, MySQL, MongoDB
     * Redis, RabbitMQ
     * Elasticsearch
 
@@ -18,7 +18,6 @@
 - layout: left
   name: DevOps
   description: | # this will include new lines to allow paragraphs
-    * Oracle, MySQL, MongoDB
-    * Jenkins
     * Linux CentOS, Rocky Linux
     * GitHub, GitLab
+    * Jenkins
