@@ -41,7 +41,7 @@
 
     **[해결 방안 및 구현]**
     - Spring Batch Partitioner 적용으로 데이터 파티셔닝 및 Step 병렬 처리 구조 도입
-      - 전문 데이터 100K 이상 요청 시, 가용 스레드의 2/3만큼 스레드풀 동적 할당
+      - 전문 데이터 10K 이상 요청 시, 가용 스레드의 2/3만큼 스레드풀 동적 할당
     - 가맹점 데이터 변경 Event API 연동을 WebClient 기반 Async/Non-Blocking 방식으로 전환
       - StepListener 활용해 Chunk 단위 처리 후 비동기 API 호출로 처리 효율 극대화
 
