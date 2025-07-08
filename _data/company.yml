@@ -6,25 +6,24 @@
   quote: >
     누적 회원수 1700만, MAU 400만 이상의 회원 보유하는 선불카드 결제플랫폼 서비스 운영
   description: | # this will include new lines to allow paragraphs
-    * 선불형 카드 결제플랫폼 서비스 & 국내 다양한 대국민 지역화폐 서비스 제공
+    * 선불 카드 결제플랫폼 서비스 & 국내 다양한 지역화폐 대국민 서비스 제공
     * 결제플랫폼 기반의 기부, 배달, 택시 등 다양한 부가서비스 제공
-    * 결제플랫폼 제휴 연동을 위한 OpenAPI 서비스 제공
 
       **담당 개발/운영 서비스**
       * 회원 정보 관리 서비스
-      * 지역화폐 기부 서비스
-      * 지역화폐 이관 지원 서비스
-      * 결제플랫폼 웹 연동 Aggregator 서비스
-      * 결제플랫폼 OpenAPI 환경 APIGateway 서비스
-      * Elasticsearh 기반 주소 연계 정보 연동 서비스
-      * 가상 계좌 연동 관리 서비스
-      * ~~외환 관리 서비스 (서비스 오픈 미정 😢)~~
       * 자체 가상 순번 대기 서비스
+      * 결제플랫폼 OpenAPI 환경 APIGateway 서비스
+      * 가상 계좌 연동 관리 서비스
+      * 지역화폐 이관 지원 서비스
+      * 지역화폐 기부 서비스
+      * 결제플랫폼 웹 연동 Aggregator 서비스
+      * Elasticsearh 기반 주소 연계 정보 연동 서비스
+      * ~~외환 관리 서비스 (서비스 오픈 미정 😢)~~
 
       **Skill**
       * Java, Kotlin
       * Spring F/W, Spring Batch, Spring Data JPA, Spring WebFlux, Spring Cloud
-      * Oracle, Elasticsearch
+      * OracleDB, MySQL, Elasticsearch
       * Redis, RabbitMQ
       * Git, GitLab, Jenkins
 
