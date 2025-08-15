@@ -1,20 +1,5 @@
 - layout: top-middle
-  name: 회원 관리 서비스 개발/운영
-  dates: 코나아이 (2020.11 ~ 현재)
-  description: |
-    - 코나 결제 플랫폼 시스템 **회원 관리** Rest API 신규/운영 개발
-    - 회원 정보 검증 & 가입 & 인증 프로세스 API 제공
-    - 회원 정보 관리 및 약관 관리 등 회원 관련 API 제공
-    - 휴면 회원 정책 수립, 전환/해제 신규 프로세스 개발 구축
-    - ISMS-P 정책에 따른 탈퇴 회원 정보 분리 보관 & 보존 기간 만료된 정보 파기 Batch 신규 프로세스 개발
-    - DI연계정보 무효화 및 통합 인증 모듈 적용한 회원 가입 프로세스 개발
-    - 다양한 회원 KYC(Know-Your-Customer) 정책 설계 및 데이터 마이그레이션, 가입 프로세스 적용
-
-    **Project Specs**
-    Java, Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
-
-- layout: top-middle
-  name: 2025년 민생회복 소비쿠폰 신청/지급 시스템 개선/운영 개발
+  name: 2025년 민생회복 소비쿠폰 신청/지급 시스템 개선
   dates: 코나아이 (2025.07 ~ ing..)
   description: |
     - 2025년 민생회복 소비쿠폰 신청 및 지급을 위한 시스템 개선 진행
@@ -22,11 +7,8 @@
     - 행안부 지원금 대상자 포인트 사용 거래 집계 프로세스 신규 개발
     - 행안부 시스템 연동 관련 개발 대응 및 기능/성능 테스트 지원
 
-    **Project Specs**
-    Kotlin, Spring Boot, RabbitMQ, Oracle, Gradle
-
 - layout: top-middle
-  name: 트래픽 제어 서비스(가상 순번 대기 시스템) 신규 개발
+  name: 대용량 트래픽 제어 시스템(가상 순번 대기 시스템) 구축
   dates: 코나아이 (2025.04 ~ 2025.06)
   description: |
     - 지역화폐 충전 인센티브 지급 등 일시적으로 폭증하는 트래픽 대응을 위한 자체 가상 순번 대기 시스템 개발
@@ -36,23 +18,26 @@
     - 트래픽 대기/진입 정보 집계 및 통계 데이터 관리 프로세스 구축
     - AWS 클라우드 인프라 활용한 Auto-Scailing 환경 구성
 
-    **Project Specs**
-    Kotlin, Spring Boot, Redis, AuroraDB, Gradle, AWS Cloud
-
 - layout: top-middle
-  name: 가맹점 연동 Batch 시스템 성능 최적화
+  name: 매입사 가맹점 연동 Batch 시스템 성능 최적화
   dates: 코나아이 (2025.02 ~ 2025.03)
   description: |
     - 카드사 가맹점 정보 연동 Batch 시스템 성능 최적화
-    - Spring Batch Partitioner 기능 활용하여 Batch 프로세스 병렬 처리
+    - Spring Batch Partitioner 기능 활용하여 **Batch 프로세스 병렬 처리 적용**
     - 연동 처리 건수 기준 동적 Thread Pool 할당하여 리소스 누수 방지
     - 연동 처리 건수별 처리 시간 측정 및 최적화 지표 도입
 
-    **Project Specs**
-    Java, Spring Batch, Spring Data JPA, Oracle, Gradle
+- layout: top-middle
+  name: 영암 지역화폐 월출페이 서비스 이관
+  dates: 코나아이 (2024.12 ~ 2025.02)
+  description: |
+    - 기존 서비스 운영사 조폐공사사의 영암 지역 화폐 데이터 이관 및 데이터 마이그레이션 처리
+      - 회원 데이터 : 약 2만건, 거래 내역 데이터 : 약 20만건
+      - 물리 장치를 통한 데이터 이관 및 데이터 검증 작업 진행
+    - 신규 월출페이 서비스 이용 회원 정보 연동 서비스 개선 및 운영
 
 - layout: top-middle
-  name: 가상계좌 연동 관리 신규 개발
+  name: 은행사 가상계좌 정보 관리 & 거래 전문 연동 신규 서비스 구축
   dates: 코나아이 (2024.05 ~ 2024.10)
   description: |
     - 은행사 발행 가상계좌 선불카드 연동 위한 가상계좌 연동 관리 서비스 구축
@@ -61,14 +46,10 @@
     - 가상계좌 입금/입금취소 거래 요청에 따른 선불카드 잔액 충전 연동 프로세스 구축
     - 프로젝트 리더 업무 담당하여 설계, 개발 단계 참여
 
-    **Project Specs**
-    Kotlin, Spring Boot, Spring Data JPA, Spring Data Redis, Kotlin JDSL, Oracle, Gradle
-
 - layout: top-middle
-  name: 외환 관리 서비스 신규 개발
+  name: 외환 예치금 정보 관리 & 외환 거래 관리 신규 서비스 구축
   dates: 코나아이 (2024.01 ~ 2024.04 / 2024.10 ~ 2024.12<small>(고도화 기간)</small>)
-  quote: >
-    오픈 예정 서비스 😢
+  quote: 오픈 예정 서비스 😢
   description: |
     - 해외 송금 등 외화 관련 서비스 지원을 위한 외환 관리 서비스 신규 개발
     - 통화별 매입 외화 예치금 계좌 입출금 거래 관리
@@ -76,13 +57,17 @@
     - 외화 거래 대기/완료 거래 트랜잭션 처리 프로세스 구축
     - 환율 정보 조회 외부 API 연동 & 환율 정보 조회 서비스 제공
 
-    **Project Specs**
-    Kotlin, Spring Boot, Spring Data JPA, Spring Data Redis, RabbitMQ, Kotlin JDSL, Oracle, Gradle
+- layout: top-middle
+  name: 회원 KYC 체계 수립 & 프로세스 구축
+  dates: 코나아이 (2023.11 ~ 2023.12)
+  description: |
+    - 플랫폼 서비스 이용 회원 식별을 위한 **회원 KYC 체계 수립**
+    - 회원 인증 수단 별 인증 시나리오 구분 및 인증 수단 정보 관리
+    - AML 미수행 회원 or 위반 회원 서비스 이용 차단 프로세스 개발
 
 - layout: top-middle
-  name: Elasticsearh 기반 주소 연계 정보 연동 서비스 개발
-  dates: >
-    코나아이 (2023.06 ~ 2023.11)
+  name: Elasticsearh 기반 주소 정보 자동화 수집 시스템 구축
+  dates: 코나아이 (2023.06 ~ 2023.11)
   description: |
     - 사내 매입 가맹점의 주소 및 좌표 정보 수집하기 위한 신규 주소 데이터 수집 시스템 개발
     - 국가주소기반산업지원서비스(주소정보누리집)의 주소연계정보 일변동 데이터 연동 및 수집
@@ -94,87 +79,102 @@
       - 지번 & 관련-지번 검색 성공율 : 73.3% -> **81.3%**
       - 평균 1회 주소 검색 소요 시간 : 18ms -> **6ms**
 
-    **Project Specs**
-    Elasticsearh, Logstash, Filebeat, Kotlin, Spring F/W, Gradle
+- layout: top-middle
+  name: 울산 지역화폐 울산페이 서비스 이관
+  dates: 코나아이 (2023.05 ~ 2023.06)
+  description: |
+    - 기존 서비스 운영사 KT사의 울산 지역 화폐 데이터 이관 및 데이터 마이그레이션 처리
+      - 회원 데이터 : 약 53만건, 거래 내역 데이터 : 약 10,000만건
+      - 물리 장치를 통한 데이터 이관 및 데이터 검증 작업 진행
+    - 신규 울산페이 서비스 이용 회원 정보 연동 서비스 개선 및 운영
 
 - layout: top-middle
-  name: 결제플랫폼 OpenAPI 환경 Gateway 개발/운영
-  dates: >
-    코나아이 (2022.11 ~ 2023.01)
+  name: 기부 서비스 기능 고도화 프로젝트
+  dates: 코나아이 (2023.03 ~ 2023.04)
   description: |
-    - 코나 선불카드 결제플랫폼 서비스를 OpenAPI 제공하기 위한 프로젝트 참여
-    - Client 요청에 대한 Routing 및 API 인증/인가 처리하는 APIGateway 서버 신규 개발
+    - 지역화폐 기부 서비스 기능 고도화 프로젝트
+    - 카드 잔액 + 포인트 금액 복합 기부 서비스 기능 신규 개발
+    - 복합 기부 시, 카드 결제 정책에 따른 각 결제 수단 별 자동 금액 계산 기능 개발
+    - 기부 내역 조회 API 기능 개선
+
+- layout: top-middle
+  name: 탈퇴 회원 정보 분리 보관 & 보존 기간 만료 회원 정보 파기 프로세스 구축
+  dates: 코나아이 (2022.12 ~ 2023.01)
+  description: |
+    - 국가 인증 제도 ISMS-P 개인정보 보호 정책 준수를 위한 회원 정보 분리 보관 및 파기 프로세스 수립 및 개발 진행
+    - 회원 탈퇴 처리 후 회원 정보 별도 DB 테이블 이동하여 분리 보관 처리
+    - 탈퇴 회원 정보 보존 기간 정책에 따라 회원 정보 파기 Batch 프로세스 개발
+
+- layout: top-middle
+  name: 결제플랫폼 OpenAPI 환경 Gateway 시스템 구축
+  dates: 코나아이 (2022.11 ~ 2023.01)
+  description: |
+    - 코나 선불카드 결제플랫폼 서비스 OpenAPI 제공 프로젝트 참여
+    - Client 요청에 대한 API Routing 및 API 인증/인가 처리하는 APIGateway 서버 신규 개발
     - `Spring Cloud Gateway` 개발 환경을 구축하고, `Filter` 인터페이스 구현하여 Gateway 기능 제공
     - OpenAPI 사용하기 위한 API Access Key 발급 및 인증 처리
     - API 요청 Call-Count 체크 및 제한 처리
     - API HTTP Body 암호화 및 복호화 처리
     - OpenAPI 파트너 Callback API 요청 Routing 처리
     - OpenAPI 파트너 테스트 집계 처리
-    - `Reactive` & `Functional` 프로그래밍 개발 기법 도입
-
-    **Project Specs**
-    Kotlin, Spring Cloud Gateway, Spring Webflux, Spring Data R2DBC, MySQL, Reactive Redis, RabbitMQ, Gradle
+    - Spring Webflux 활용한 `Reactive` & `Functional` 프로그래밍 개발 기법 도입
 
 - layout: top-middle
-  name: 외부 제휴사 결제/정산 내역 연동 Core Component 개발/운영
-  dates: >
-    코나아이 (2022.02 ~ 2022.05)
+  name: 김포 지역화폐 김포페이 서비스 이관
+  dates: 코나아이 (2022.05 ~ 2022.06)
+  description: |
+    - 기존 서비스 운영사 KT사의 김포 지역 화폐 데이터 이관 및 데이터 마이그레이션 처리
+      - 회원 데이터 : 약 30만건, 거래 내역 데이터 : 약 8,000만건
+      - 물리 장치를 통한 데이터 이관 및 데이터 검증 작업 진행
+    - 신규 김포페이 서비스 이용 회원 정보 연동 서비스 개선 및 운영
+
+- layout: top-middle
+  name: 외부 제휴사 결제/정산 내역 연동 신규 서비스 구축
+  dates: 코나아이 (2022.02 ~ 2022.05)
   description: |
     - 외부 제휴사 로카모빌리티 결제/정산 내역 연동을 위한 프로세스 구축
     - 실시간 거래 내역 연동 API 개발
     - 가맹점 정보 연동 Batch 프로그램 개발
     - 결제 정산 대금 및 입금 내역 연동 Batch 프로그램 개발
 
-    **Project Specs**
-    Kotlin, Spring Boot, Spring Batch, Spring Data JPA, Oracle, Gradle
-
 - layout: top-middle
-  name: 지역화폐 서비스 이관 지원 Core Component 개발/운영
-  dates: >
-    코나아이 (2021.03 ~ 2021.04 / 2022.05 ~ 2022.06 / 2023.05 ~ 2023.06 / 2024.12 ~ 2025.02)
+  name: 회원 인증 프로세스 보안 강화 프로젝트
+  dates: 코나아이 (2022.01 ~ 2022.02)
   description: |
-    - 타사 AS-IS 지역 화폐 정보 이관 관리 Rest API 신규/운영 개발
-    - 코나 지역화폐 서비스 기준 이관 DB 신규 테이블 모델링 및 구축
-    - AS-IS 서비스 기반 DB 분석 및 마이그레이션 SQL 개발
-    - AS-IS 서비스 회원 정보 연동 프로세스 구축
-    - AS-IS 서비스 잔액 원장, 카드 원장, 거래 내역 원장 등 필요한 데이터 이관 프로세스 구축
-    - 지역 화폐 이관 서비스 대상
-      - **2025** 영암 지역화폐 **월출페이** (회원 : 약 2만명, 거래 내역 : 약 2만건)
-      - **2023** 울산 지역화폐 **울산페이** (회원 : 약 53만명, 거래 내역 : 약 10,000만건)
-      - **2022** 김포 지역화폐 **김포페이** (회원 : 약 30만명, 거래 내역 : 약 8,000만건)
-      - **2021** 부산 지역화폐 **부산동백전** (회원 : 약 300만명, 거래 내역 : 약 30,000만건)
-
-    **Project Specs**
-    Kotlin, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Oracle, Gradle
+    - 회원 인증 프로세스 보안 강화를 위한 인증 프로세스 고도화
+      - 본인 인증 검증 데이터 재사용 방지
+      - 로그인 비밀번호 암호화 데이터 재사용 방지
+    - 회원 인증 프로세스 유효성 검증을 위한 **NONCE 발급 및 검증 체계 수립**
+    - NONCE 발급 데이터 캐싱 처리하여 데이터 조회 성능 최적화
 
 - layout: top-middle
-  name: 기부 관리 서비스 개발/운영
-  dates: >
-    코나아이 (2021.10 ~ 현재)
-  description: |
-    - 지역화폐 기반 기부 서비스 관리 운영 개발
-    - 기부 모금회 정보 등록/관리 프로세스 제공
-    - 기부 캠페인 등록/관리 프로세스 제공
-    - 일시 기부, 정기 기부, 실시간 리워드 기부 3가지 다양한 기부 결제 프로세스 제공
-    - 카드 충전잔액, 포인트 등 다양한 기부 수단 결제 프로세스 제공
-    - 충전잔액 & 포인트, 다중 포인트 사용한 복합 기부 형태의 신규 프로세스 구축
-    - 기부 서비스 고도화 버전 백엔드 프로세스 개선 및 신규 개발
-
-    **Project Specs**
-    Kotlin, Spring Boot, Spring Data JPA, QueryDSL, Oracle, Gradle
-
-- layout: top-middle
-  name: Mock API 지원 Core Component 개발/운영
-  dates: >
-    코나아이 (2021.11 ~ 2021.12)
+  name: 외부 연동 서비스 Mock 테스트 지원 서비스 개발
+  dates: 코나아이 (2021.11 ~ 2021.12)
   description: |
     - 외부 솔루션 연동이 필요한 프로젝트 진행 지원을 위한 Mock Test Server 구축
-    - 간단한 API 등록만으로 외부 솔루션 API 서비스 구현하고 테스트 지원
-    - 별도 DB Schema 또는 REST API 개발 없이 테스트 지원
-    - `MongoDB` 활용한 동적 **Data Schema** 구성 및 API 구성
+    - `MongoDB` 활용한 동적 **API URL/요청/응답** 데이터 관리
 
-    **Project Specs**
-    Kotlin, Spring Boot, Spring Data JPA, MongoDB, Gradle
+- layout: top-middle
+  name: 부산 지역화폐 동백전 서비스 이관
+  dates: 코나아이 (2021.03 ~ 2021.04)
+  description: |
+    - 기존 서비스 운영사 KT사의 부산 동백전 지역 화폐 데이터 이관
+      - 회원 데이터 : 약 300만건, 거래 내역 데이터 : 약 30,000만건
+      - 물리 장치를 통한 데이터 이관 및 데이터 검증 작업 진행
+    - 이관 데이터를 코나 지역화폐 정책과 연동될 수 있도록 데이터 마이그레이션 진행
+      - AS-IS 서비스 기반 DB 분석 및 이관 데이터 마이그레이션 SQL 개발
+    - 신규 동백전 서비스 이용 회원 정보 연동 서비스 신규 개발
+
+- layout: top-middle
+  name: 장기 미사용 회원 휴면 전환/해제 프로세스 구축
+  dates: >
+    코나아이 (2020.11 ~ 2021.01)
+  description: |
+    - 1년간 로그인하지 않고, 카드 미사용한 회원 휴면 전환 프로세스 개발
+      - 1일 1회 Batch 프로세스를 통하여 장기 미사용 회원 휴면 전환 처리
+      - 대용량 데이터 조회 및 검증 Batch 프로세스 개발
+    - 휴면 상태 회원 서비스 이용 차단 정책 수립 및 프로세스 개발
+    - 휴면 회원 해제 정책 수립 및 프로세스 개발
 
 - layout: top-middle
   name: 하나원큐 2.0 고도화
