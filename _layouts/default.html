@@ -24,8 +24,12 @@
                    {%- include experience.html -%}
                 {%- endif -%}
 
-                {%- if site.data.projects.size > 0 -%}
-                    {%- include projects.html -%}
+                {%- if site.data.projects_kona.size > 0 -%}
+                    {%- include projects_kona.html -%}
+                {%- endif -%}
+
+                {%- if site.data.projects_aton.size > 0 -%}
+                    {%- include projects_aton.html -%}
                 {%- endif -%}
 
                 {%- if site.data.skill.size > 0 -%}
