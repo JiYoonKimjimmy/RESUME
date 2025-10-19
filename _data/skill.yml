@@ -1,6 +1,6 @@
 - layout: left
   name: Back-end
-  description: | # this will include new lines to allow paragraphs
+  description: |
     * Java, Kotlin
     * Spring Framework, Spring Boot, Spring Cloud, Spring Webflux, Spring Batch, Spring F/W Etc..
     * QueryDSL, KotlinJDSL, Exposed
@@ -10,14 +10,20 @@
 
 - layout: left
   name: Front-end
-  description: | # this will include new lines to allow paragraphs
+  description: |
     * HTML, CSS, jQuery
     * JavaScript ES5, ES6+
     * Vue.js
 
 - layout: left
   name: DevOps
-  description: | # this will include new lines to allow paragraphs
+  description: |
     * Linux CentOS, Rocky Linux
     * GitHub, GitLab
     * Jenkins
+
+- layout: left
+  name: AI
+  description: |
+    * CursorAI
+    * Claude Code
