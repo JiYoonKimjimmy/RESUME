@@ -14,7 +14,7 @@
     - HTTP Long-Term Polling, 서버 계산 기반 Polling 주기 동적 조절
     - 좀비-토큰 자동 만료·대기열 상태 주기 모니터링 등 운영 자동화
 
-- layout: top
+- layout: top-middle
   name: 가맹점 연동 Batch 시스템 성능 최적화
   description: |
     **[성과]**
@@ -28,7 +28,7 @@
     - 외부 API 연동 WebClient 전환으로 Async/Non-Blocking, Chunk Listener로 후속 비동기 호출
     - 대량 파일 처리 시 단건 Sync 처리 제거, 재시도 정책 정교화로 운영 안정성 확보
 
-- layout: top
+- layout: top-middle
   name: 주소정보누리집 데이터 수집 시스템 자동화
   description: |
     **[성과]**
