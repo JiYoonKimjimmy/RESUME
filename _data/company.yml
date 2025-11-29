@@ -5,8 +5,11 @@
   dates: 2020.11 ~ 현재
   quote: >
     누적 회원수 1700만, MAU 400만 이상의 회원 보유하는 선불카드 결제플랫폼 서비스 운영
-  description: | # this will include new lines to allow paragraphs
-    * 선불 카드 결제플랫폼 서비스 & 국내 다양한 지역화폐 대국민 서비스 제공
+  description: |
+    * 선불형 결제플랫폼 기반 선불카드 서비스 제공
+    * 경기도, 인천 등 다양한 지자체 지역화폐 대국민 서비스 운영
+    * 재난지원금, 민생회복소비쿠폰 등 전국민 국가 지원금 신청/지급 서비스 운영
+    * 다양한 결제플랫폼 API 통합 OpenAPI 서비스 제공
     * 결제플랫폼 기반의 기부, 배달, 택시 등 다양한 부가서비스 제공
 
       **담당 개발/운영 서비스**
@@ -14,18 +17,18 @@
         * 회원 정보 관리/인증 서비스
         * 지역화폐 기부 서비스
         * 주소 연계 정보 연동 서비스
-        * 결제플랫폼 WEB전용 Aggregator 서비스
+        * 행안부 국가 지원금 신청/지급 관리 서비스
       * 신규 개발 담당 서비스
-        * 자체 가상 순번 대기 서비스
-        * 가상 계좌 연동 관리 서비스
+        * 지역화폐 데이터 이관/마이그레이션 서비스
         * 결제플랫폼 OpenAPI 환경 APIGateway 서비스
-        * 지역화폐 데이터 이관 및 마이그레이션 서비스
+        * 은행사 발행 가상 계좌 선불카드 연동 관리 서비스
+        * 자체 가상 순번 대기 트래픽 제어 서비스
 
       **Skill**
       * Java, Kotlin
       * Spring F/W, Spring Boot, Spring Batch, Spring Data JPA, Spring WebFlux, Spring Cloud
       * OracleDB, MySQL, Elasticsearch, Redis, RabbitMQ
-      * CursorAI
+      * CursorAI, Claude Code
 
 #    *이직 사유 : 좋은 제안을 기회삼아 도전해보고 싶은 마음으로 이직을 결정하였습니다.*
 
