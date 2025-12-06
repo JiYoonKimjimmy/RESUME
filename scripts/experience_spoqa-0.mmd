@@ -1,0 +1,17 @@
+---
+config:
+  theme: redux
+---
+graph LR
+    subgraph "가상 순번 대기 처리"
+        Client[Client] --> ALB[ALB]
+        ALB --> EC2_Queue[EC2<br/>가상순번대기시스템]
+        EC2_Queue --> Redis[Redis]
+    end
+    
+    subgraph "대기 현황 모니터링"
+        Redis --> EC2_Monitor[EC2<br/>모니터링스케쥴러]
+        EC2_Monitor --> AuroraDB[AuroraDB]
+        EC2_Query[EC2<br/>모니터링 데이터 조회] <--|조회| AuroraDB
+        EC2_Query --> EC2_Backoffice[EC2<br/>모니터링 백오피스]
+    end

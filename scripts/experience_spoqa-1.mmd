@@ -1,0 +1,23 @@
+---
+config:
+  theme: redux
+---
+graph LR
+    Start[회원 로그인] --> Auth1[1. 통신사 인증]
+    Auth1 -->|완료| Cache1[캐시 저장]
+    Cache1 --> Auth2[2. 계좌 인증]
+    Auth2 -->|완료| Cache2[캐시 저장]
+    Cache2 --> Auth3[3. PIN 인증]
+    Auth3 -->|완료| Cache3[캐시 저장]
+    Cache3 --> LoginAPI[Login API]
+    LoginAPI -->|검증| Verify{모든 인증<br/>완료 확인}
+    Verify -->|통과| Success[로그인 성공]
+    Verify -->|실패| Fail[로그인 실패]
+    
+    style Auth1 fill:#e1f5ff
+    style Auth2 fill:#e1f5ff
+    style Auth3 fill:#e1f5ff
+    style Cache1 fill:#fff4e1
+    style Cache2 fill:#fff4e1
+    style Cache3 fill:#fff4e1
+    style Verify fill:#ffe1f5
